@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePhoneRetriever.Startup", "SecurePhoneRetriever.Startup\SecurePhoneRetriever.Startup.csproj", "{8C95DCD1-017F-4C33-8462-50A1D8C65A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePhoneRetriever.Model", "SecurePhoneRetriever.Model\SecurePhoneRetriever.Model.csproj", "{0E5DC52D-D35C-4731-A69E-AD4A6E7FE772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePhoneRetriever.Presenter", "SecurePhoneRetriever.Presenter\SecurePhoneRetriever.Presenter.csproj", "{B148A48E-CCCC-4218-B180-5E4DC7634523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePhoneRetriever.UI", "SecurePhoneRetriever.UI\SecurePhoneRetriever.UI.csproj", "{E41BA491-B0D7-462F-9C74-525B4F525B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePhoneRetriever.Common", "SecurePhoneRetriever.Common\SecurePhoneRetriever.Common.csproj", "{79F1E4C7-A009-4A32-9CA6-700B71F28EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C95DCD1-017F-4C33-8462-50A1D8C65A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C95DCD1-017F-4C33-8462-50A1D8C65A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C95DCD1-017F-4C33-8462-50A1D8C65A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C95DCD1-017F-4C33-8462-50A1D8C65A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5DC52D-D35C-4731-A69E-AD4A6E7FE772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5DC52D-D35C-4731-A69E-AD4A6E7FE772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5DC52D-D35C-4731-A69E-AD4A6E7FE772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5DC52D-D35C-4731-A69E-AD4A6E7FE772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B148A48E-CCCC-4218-B180-5E4DC7634523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B148A48E-CCCC-4218-B180-5E4DC7634523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B148A48E-CCCC-4218-B180-5E4DC7634523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B148A48E-CCCC-4218-B180-5E4DC7634523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41BA491-B0D7-462F-9C74-525B4F525B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41BA491-B0D7-462F-9C74-525B4F525B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41BA491-B0D7-462F-9C74-525B4F525B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41BA491-B0D7-462F-9C74-525B4F525B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F1E4C7-A009-4A32-9CA6-700B71F28EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F1E4C7-A009-4A32-9CA6-700B71F28EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F1E4C7-A009-4A32-9CA6-700B71F28EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F1E4C7-A009-4A32-9CA6-700B71F28EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16CE0691-D9DD-426B-911C-AB0E32E108DC}
+	EndGlobalSection
+EndGlobal
