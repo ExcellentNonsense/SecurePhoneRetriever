@@ -23,3 +23,6 @@ To get the phone number from the app, you need to prove that you are not a robot
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ExcellentNonsense/SecurePhoneRetriever/blob/master/LICENSE) file for details.
+
+# Disclaimer
+This project was created for educational purposes.
