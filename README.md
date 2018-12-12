@@ -13,7 +13,7 @@ To get the phone number from the app, you need to prove that you are not a robot
 
 # Built With
 * .NET Framework v4.6.1
-* WIndows Forms API
+* Windows Forms API
 * Visual Studio 2017 Community Edition - IDE
 * [Autofac](https://autofac.org/) - DI container
 * [MSBuild.ILMerge.Task](https://www.nuget.org/packages/MSBuild.ILMerge.Task/) - Project builder
