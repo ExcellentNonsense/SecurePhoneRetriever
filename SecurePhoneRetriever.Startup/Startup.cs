@@ -4,6 +4,7 @@ using SecurePhoneRetriever.Model;
 using SecurePhoneRetriever.Presenter;
 using SecurePhoneRetriever.UI;
 using System;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace SecurePhoneRetriever.Startup {
@@ -15,6 +16,14 @@ namespace SecurePhoneRetriever.Startup {
         private static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Application.ThreadException +=
+                new ThreadExceptionEventHandler(GlobalExceptionHandler);
+
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+
+            AppDomain.CurrentDomain.UnhandledException +=
+                new UnhandledExceptionEventHandler(GlobalExceptionHandler);
 
             var container = ConfigureContainer();
 
@@ -59,6 +68,11 @@ namespace SecurePhoneRetriever.Startup {
                 .SingleInstance();
 
             return builder.Build();
+        }
+
+        private static void GlobalExceptionHandler(object sender, EventArgs e) {
+            MessageBox.Show("Oops! There was a problem. Please contact us - ExcellentNonsense.feedback@gmail.com.");
+            Application.Exit();
         }
     }
 }
